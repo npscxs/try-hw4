@@ -61,8 +61,8 @@ address {
   align-items: center;
 }
 .top-logo {
+  font-family: Raleway;
   color: #4d5ae5;
-  font-family: "Raleway";
   font-size: 18px;
   font-weight: 700;
   line-height: 1, 17;
