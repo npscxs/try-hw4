@@ -1,6 +1,7 @@
 body {
-  font-family: "Roboto" sans-serif;
-  background: #fff;
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+  color: #434455;
 }
 *,
 *::before,
@@ -167,7 +168,7 @@ address {
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -222,7 +223,6 @@ address {
 }
 
 .features-item-text {
-  font-family: Roboto;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -243,7 +243,6 @@ address {
 .team-tittle {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -281,7 +280,6 @@ address {
 .team-img-title {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -290,7 +288,6 @@ address {
 .team-img-text {
   color: #434455;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -332,7 +329,6 @@ address {
 .portfolio-tittle {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
@@ -370,7 +366,6 @@ address {
 }
 .img-tittle {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -378,9 +373,68 @@ address {
 }
 .img-text {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+/* Footer */
+.bot-line {
+  padding: 100px 0;
+  background-color: #2e2f42;
+}
+.footer {
+  display: flex;
+  gap: 120px;
+}
+.footer-logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 17.5px;
+  margin-left: 156px;
+}
+.bot-logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.bot-logo-word {
+  color: #f4f4fd;
+}
+.text-to-logo {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 264px;
+}
+.sm {
+}
+.sm-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-bottom: 16px;
+}
+.team-sm {
+  display: flex;
+  gap: 16px;
+}
+.sm-list {
+}
+.sm-link {
+}
+.sm-svg {
+  fill: #f4f4fd;
+}
+.sm-svg-item {
+  fill: #f4f4fd;
 }
