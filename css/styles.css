@@ -98,6 +98,7 @@ address {
   gap: 40px;
 }
 .navigation-item {
+  display: block;
 }
 
 .link {
@@ -113,6 +114,7 @@ address {
 .link:active {
   color: #404bbf;
 }
+
 .adress {
   padding-left: 332px;
 }
@@ -195,7 +197,7 @@ address {
 }
 .features-item {
   display: flex;
-  width: 264px;
+  width: calc((100% - 3 * 24) / 4);
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
@@ -250,11 +252,13 @@ address {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .team-list {
   display: flex;
   gap: 24px;
 }
 .team-item {
+  width: calc((100% - 72px) / 4);
   display: inline-flex;
   padding-bottom: 32px;
   flex-direction: column;
@@ -346,7 +350,7 @@ address {
   border: 1px solid #e7e9fc;
   background: #fff;
   display: flex;
-  width: 360px;
+  width: calc((100% - 48px) / 3);
   height: 420px;
   padding-bottom: 32px;
   flex-direction: column;
