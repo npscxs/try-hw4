@@ -56,6 +56,7 @@ address {
   width: 100%;
   padding-left: 156px;
   padding-right: 156px;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -64,6 +65,7 @@ address {
 }
 
 .container-header {
+  margin: 0 auto;
   max-width: 1440px;
   width: 100%;
   padding-left: 156px;
@@ -236,9 +238,9 @@ address {
 /* Team Section 3 */
 
 .team {
+  background: #f4f4fd;
 }
 .container-team {
-  background: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -422,6 +424,8 @@ address {
 .footer {
   display: flex;
   gap: 120px;
+  margin: 0 auto;
+  width: 1440px;
 }
 .footer-logo-text {
   display: flex;
