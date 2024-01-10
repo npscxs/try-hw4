@@ -76,6 +76,7 @@ address {
 .top-line {
   display: flex;
   align-items: center;
+  height: 72px;
 }
 .top-logo {
   font-family: Raleway;
@@ -93,12 +94,11 @@ address {
 }
 .line-navigation {
   display: flex;
-  align-items: center;
   margin-left: 76px;
   gap: 40px;
+  margin-top: 24px;
 }
 .navigation-item {
-  display: block;
 }
 
 .link {
@@ -478,4 +478,28 @@ address {
 .footer-sm-svg {
 }
 .sm-svg-item {
+}
+
+/* sdsdsds */
+.link-studio:hover:after {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 48px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background-color: #404bbf;
+  content: "";
+}
+
+.navigation-item-studio {
+  display: flex;
+  width: 48px;
+  height: 52px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  padding-bottom: 4px;
 }
