@@ -102,7 +102,7 @@ address {
 }
 .navigation-item {
 }
-.link:active::after {
+.link-studio:active::after {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -116,7 +116,6 @@ address {
 .navigation-item {
   display: flex;
   height: 52px;
-  flex-direction: column;
   align-items: flex-start;
   gap: 20px;
   flex-shrink: 0;
